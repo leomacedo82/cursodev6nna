@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="cadastroSucesso.html" method="POST">
+            <fieldset>
+                <legend>Cadastro de usuário</legend>
+                <p>Nome Completo:</p>
+                <input type="text" name="nomeCompleto" placeholder="Insira o nome" required>
+                <p>Senha:</p>
+                <input type="password" name="senha" placeholder="Insira a senha" required>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" value="M" required> Masculino
+                <input type="radio" name="sexo" value="F" required> Feminino
+                <br>
+                <p>Esportes Favoritos:</p>
+                <input type="checkbox" name="esporte" value="volei"> Volei
+                <input type="checkbox" name="esporte" value="Basquete"> Basquete
+                <br><br>
+                <p>Selecione a cidade:</p>
+                <select name="cidade">
+                    <option value="Belém">Belém</option>
+                    <option value="Ananindeua">Ananindeua</option>
+                </select>
+
+                <p>Observaçoes:</p>
+                <textarea name="observacoes" placeholder="Insira as obervações" cols="30" rows="5">Quando alcançarmos a meta</textarea>
+                
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Cancelar">
+                <input type="reset" value="Limpar">
+                <input type="hidden" name="acao" value="CadastrarPessoa">
+            </fieldset>
+        </form>
+    </body>
+</html>
