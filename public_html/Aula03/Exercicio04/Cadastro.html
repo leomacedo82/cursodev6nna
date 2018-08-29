@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tela de Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="cadastro">
+            <H1>Abra uma conta</H1>
+            <h3>É gratuito e sempre será.</h3>
+            <form action="cadastroSucesso.html" method="post">
+                <table>
+                    <tr>
+                        <td><input size="20" type="text" placeholder="Nome"></td>
+                        <td><input size="20" type="text" placeholder="Sobrenome"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input size="46" type="text" placeholder="E-mail ou número do celular"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input size="46" type="text" placeholder="Insira novamente o e-mail ou o celular"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input size="46" type="text" placeholder="Nova senha"></td>
+                    </tr>
+                </table>
+                <h3>Aniversário</h3>
+                <select name="diaNiver">
+                    <option value="dia">Dia</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <select name="mesNiver">
+                    <option value="mes">Mês</option>
+                    <option value="Janeiro">Janeiro</option>
+                    <option value="Feveiro">Fevereiro</option>
+                    <option value="Março">Março</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Maio">Maio</option>
+                    <option value="Junho">Junho</option>
+                    <option value="Julho">Julho</option>
+                    <option value="Agosto">Agosto</option>
+                </select>
+                <select name="anoNiver">
+                    <option value="ano">Ano</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                </select>
+                <br>
+                <p>Por que preciso informar<br>minha data de nascimento?</p>
+                <br>
+                <input type="radio" name="sexo" value="F"> Feminino
+                <input type="radio" name="sexo" value="M"> Masculino
+                <p>Ao clicar em Abrir uma conta, você concorda com nossos
+                    <br>Termos e que você leu nossa Política de Dados, incluindo nosso
+                    <br>Uso de Cookies.
+                </p>
+                <input type="submit" value="Abrir uma conta">
+            </form>
+        </div>
+    </body>
+</html>
