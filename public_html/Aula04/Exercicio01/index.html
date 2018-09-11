@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicio01 CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="conteudo">
+            <H3 class="title">Formulário de cadastro</H3>
+            <form action="">
+                <fieldset class="dados-pessoais">
+                    <legend>Dados pessoais</legend>
+                    <ul>
+                        <li><span>Nome:</span><input type="text"></li>
+                        <li><span>E-mail:</span><input type="text"></li>
+                        <li><span>Cidade:</span><input type="text"></li>
+                        <li><span>Estado:</span>
+                            <select name="estados">
+                                <option value="Option">Escolha</option>
+                                <option value="MA">MA</option>
+                                <option value="AM">AM</option>
+                                <option value="SP">SP</option>
+                            </select>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="dados-profissionais">
+                    <legend>Dados profissionais</legend>
+                    <p>
+                        <span>Cargo pretendido:</span><br>
+                        <input type="radio" name="cargo">Analista de sistemas
+                        <input type="radio" name="cargo">Analista de banco de dados
+                        <input type="radio" name="cargo">Analista de suporte
+                    </p><br>
+                    <p>
+                        <span>Tecnologias de interesse:</span><br>
+                        <input type="checkbox" name="tecnologia">Java
+                        <input type="checkbox" name="tecnologia">HTML, CSS
+                        <input type="checkbox" name="tecnologia">Javascript
+                        <input type="checkbox" name="tecnologia">SQL
+                    </p><br>
+                    <p>
+                        <span>Mini currículo:</span><br>
+                        <textarea name="curriculo" id="text-curriculo" cols="75" rows="7"></textarea>
+                    </p>
+                </fieldset>
+                <fieldset class="acoes">
+                    <legend>Ações</legend>
+                    <div id="acoes-conteudo">
+                        <input type="submit" id="enviar">
+                        <input type="reset" id="limpar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

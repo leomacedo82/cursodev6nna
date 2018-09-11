@@ -1,0 +1,31 @@
+/* div {
+    font-size: 30px;
+    font-family: Verdana;
+    color: blue;
+}
+
+p {
+    font-size: 40px;
+    font-family: Arial;
+    color: brown;
+}
+
+#postagens {
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    color: green;
+}
+
+.conteudos {
+    color: gray;
+}
+
+.conteudos p {
+    color: green;
+} */
+
+.borda {
+    border: solid 4px #333;
+    margin: 50px;
+    padding: 20px;
+}

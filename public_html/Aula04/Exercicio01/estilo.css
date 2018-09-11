@@ -1,0 +1,66 @@
+body {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo {
+    width: 600px;
+}
+
+h3, #acoes-conteudo, .acoes input {
+    text-align: center;
+}
+
+fieldset {
+    margin: 10px 0;
+    border: dotted 2px #000;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+span {
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+.dados-pessoais, .dados-pessoais legend {
+    background-color: lightblue;
+}
+
+.dados-pessoais input, textarea, select {
+    background-color: khaki;
+}
+
+.dados-profissionais, .dados-profissionais legend {
+    background-color: lightcoral;
+}
+
+#acoes-conteudo input {
+    margin: 0 15px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+#enviar {
+    background-color: green;
+}
+
+#limpar {
+    background-color: orange;
+}
+
+.acoes, .acoes legend {
+    background-color: lightgreen;
+}
+
+legend {
+    font-size: 18px;
+}
