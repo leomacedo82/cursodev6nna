@@ -1,0 +1,44 @@
+body {
+    background-color: #302f2f
+}
+
+h1 {
+    padding: 5px;
+    border: dotted 1px #ffb700;
+    background-color: black;
+}
+
+h1, .forma {
+    color: #ffb700;
+    font-family: Arial;
+}
+
+p {
+    color: white;
+}
+
+.forma {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol {
+    background-color: rgb(52, 179, 218);
+    padding: 15px 30px;
+    margin: 50px;
+    border: solid 3px #a3d2ff;
+}
+
+li {
+    color: white;
+}
+
+li span {
+    color: #ffb700;
+    text-decoration: underline;
+}
+
+p span {
+    color: rosybrown;
+    font-weight: bold;
+}
