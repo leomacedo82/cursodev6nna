@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Página Inicial</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div><h1>Cálculo de Área dos Polígonos</h1></div>
+        <table border="">
+            <tr>
+                <th>Triângulo</th>
+                <th>Quadrado</th>
+                <th>Círculo</th>
+                <th>Trapézio</th>
+                <th>Retângulo</th>
+            </tr>
+            <tr>
+                <td><img src="img/triangulo.png" alt="triangulo"></td>
+                <td><img src="img/quadrado.png" alt="triangulo"></td>
+                <td><img src="img/circulo.png" alt="triangulo"></td>
+                <td><img src="img/trapezio.png" alt="triangulo"></td>
+                <td><img src="img/retangulo.png" alt="triangulo"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <ul>
+                            <li><span>Base: </span><input type="text" id="base-triangulo" size="8"></li>
+                            <li><span>Altura: </span><input type="text" id="altura-triangulo" size="8"></li>
+                            <li><input type="button" value="calc. área" onclick="calculaAreaTriangulo()"></li>
+                            <li><span>Área: </span><input type="text" id="area-triangulo" size="8" readonly></li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <ul>
+                            <li><span>Lado: </span><input type="text" id="lado-quadrado" size="8"></li>
+                            <li><input type="button" value="calc. área" onclick="calculaAreaQuadrado()"></li><br>
+                            <li><span>Área: </span><input type="text" id="area-quadrado" size="8" readonly></li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <ul>
+                            <li><span>Raio: </span><input type="text" id="raio-circulo" size="8"></li>
+                            <li><input type="button" value="calc. área" onclick="calculaAreaCirculo()"></li><br>
+                            <li><span>Área: </span><input type="text" id="area-circulo" size="8" readonly></li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <ul>
+                            <li><span>Base menor: </span><input type="text" id="base-menor-trapezio" size="4"></li>
+                            <li><span>Base maior: </span><input type="text" id="base-maior-trapezio" size="4"></li>
+                            <li><span>Altura: </span><input type="text" id="altura-trapezio" size="4"></li>
+                            <li><input type="button" value="calc. área" onclick="calculaAreaTrapezio()"></li>
+                            <li><span>Área: </span><input type="text" id="area-trapezio" size="8" readonly></li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <ul>
+                            <li><span>Base: </span><input type="text" id="base-retangulo" size="8"></li>
+                            <li><span>Altura: </span><input type="text" id="altura-retangulo" size="8"></li>
+                            <li><input type="button" value="calc. área" onclick="calculaAreaRetangulo()"></li>
+                            <li><span>Área: </span><input type="text" id="area-retangulo" size="8" readonly></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

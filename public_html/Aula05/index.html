@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Aula 05</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var peso = 90;
+            var altura = 1.75;
+            var imc = peso / Math.pow(altura,2);
+            if ((imc >= 18.5) &&(imc < 25))
+            {
+                alert("Seu IMC é igual a " + imc +", e você está no peso ideal.");
+            } else if (imc < 18.5) {
+                alert("Seu IMC é igual a " + imc +", e você está abaixo do peso ideal.");
+            } else {
+                alert("Seu IMC é igual a " + imc +", e você está acima do peso ideal.");
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

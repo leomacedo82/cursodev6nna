@@ -1,0 +1,22 @@
+body {
+    font-weight: bold;
+}
+
+input[type="button"] {
+    font-size: 20px;
+    width: 40px;
+    color: white;
+    background-color: blue;
+}
+
+input[type="text"] {
+    margin-bottom: 20px;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+
+#resultado {
+
+    color: red;
+    font-size: 22px;
+}
