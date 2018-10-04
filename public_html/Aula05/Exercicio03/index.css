@@ -1,4 +1,104 @@
+body {
+    font-family: helvetica;
+}
+
 header {
+    height: 50px;
+    padding: 10px 0;
+    border-bottom: solid 2px #000000;
+}
+
+#logo {
+    width: 50px;
     height: 50px;
 }
 
+#imagem {
+    float: left;
+}
+
+#titulo {
+    float: left;
+    font-size: 30px;
+}
+
+/* header div {
+    float: left;
+} */
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: inherit;
+}
+
+#sub-total {
+    padding-right: 50px;
+    width: 100px;
+}
+
+#item {
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#subtitulo {
+    padding: 10px 0;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+#quantidade {
+    width: 80px;
+}
+
+#comandos {
+    display: flex;
+    justify-content: center;
+}
+
+#comandos div {
+    padding: 40px 20px;
+}
+
+#tabela-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 480px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    border: 0px solid black;
+}
+
+table tr {
+    padding-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+td, th {
+    text-align: center;
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
+}
+
+tr {
+    background-color: rgb(176, 204, 255);
+}
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+}

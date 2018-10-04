@@ -7,9 +7,65 @@
     </head>
     <body>
         <header>
-            <img src="img/food.png" alt="food" >
+            <div id="imagem">
+                <img id="logo" src="img/food.png" alt="food" >
+            </div>
+            <div id="titulo">
+                <div>Padoca do seu Zé</div>
+            </div>
         </header>
         <main>
+            <div id="subtitulo">Comanda do Cliente</div>
+            <div id="item">
+                <div>
+                    <span>Produto: </span>
+                    <select name="produtos" id="produto" onchange="seleciona()">
+                        <option value="Pão">Pão</option>
+                        <option value="Bolo">Bolo</option>
+                        <option value="Empada">Empada</option>
+                        <option value="Torta">Torta</option>
+                        <option value="Refrigerante">Refrigerante</option>
+                    </select>
+                </div>
+                <div>
+                    <span>Quantidade: </span>
+                    <input id="quantidade" type="number" min="1" onchange="seleciona()">
+                </div>
+                <div>
+                    <span>Preço: R$ </span>
+                    <span id="label-preco">0.00</span>
+                </div>
+                <div>
+                    <span>Sub-Total: R$</span>
+                    <span id="sub-total">0.00</span>
+                </div>
+            </div>
+            <div id="comandos">
+                <div>
+                    <input type="button" value="Adicionar ao Carrinho" onclick="addProduto()">
+                </div>
+                <div>
+                    <input type="button" value="Limpar Comanda" onclick="limparComanda()">
+                </div>
+            </div>
+            <div id="tabela-container">
+                <table>
+                    <tbody id="tabela">
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Sub-Total</th>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td></td>
+                            <td></td>
+                            <td id="total">R$ 0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </main>
         <footer>
 
