@@ -56,7 +56,7 @@ function limparComanda()
     subtotal.innerHTML = (0).toFixed(2);
     preco.innerHTML = (0).toFixed(2);
     total.innerHTML = "R$ 0.00"
-    quantidade.value = 0;
+    quantidade.value = "";
     soma = 0;
 }
 
